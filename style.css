@@ -1,0 +1,129 @@
+/* styling the webapp*/
+.loginInfo
+{
+    width: 600px;
+	length:1000px;
+	margin:auto;
+	text-algn:center;
+}
+
+.chatRoom
+{
+	width: 600px;
+	length:1000px;
+	margin:auto;
+	text-algn:center;
+	color:white;
+}
+
+#messageList
+{
+	text-align:left;
+    margin:0 auto;
+    margin-bottom:25px;
+	padding-bottom:1px;
+    height:500px;
+    width:600px;
+    border:1px solid #512DA8;
+    overflow:auto; 
+	background: #512DA8;
+}
+
+#message
+{
+	font-size: 1em;
+	text-align:left;
+	padding-right:5px;
+	text-font:'Roboto', sans-serif;;
+	margin:0 auto;
+	padding:2px;
+	min-height:100px;
+	min-width:500px;
+	max-height: 100px;
+	max-width:500px;
+	background: #512DA8;
+	color:white;
+}
+
+#messagedisplay
+{
+	font-size: 1em;
+	text-align:left;
+	padding-right:5px;
+	text-font:'Roboto', sans-serif;;
+	margin:0 auto;
+	padding:2px;
+	min-height:40px;
+	min-width:500px;
+	max-height: 100px;
+	max-width:500px;
+	color:black;
+	background: white;
+	border: 1px solid #512DA8;
+}
+
+#timeDisplay
+{
+	text-align: right;
+	font-size: .5em;
+}
+
+#sendButton
+{
+	margin:auto;
+	float:right;
+	color : #512DA8;
+	background:white;
+	border:2px solid #512DA8;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	height: 100px;
+	width: 100px;
+}
+
+#sendButton:active
+{
+	background:#512DA8;
+	border:1px solid white
+	font-style:bold;
+	color:white;
+}
+/*styling the inputs and the buttons.*/
+li 
+{
+	list-style:none;
+}
+li.title
+{	
+	/*makes the funny hand*/
+	cursor: pointer;
+	font-family: 'Roboto', sans-serif;
+	font-size:2em;
+	font-style:bold;
+	color:white;
+	text-align:center;
+	background:#512DA8;
+	line-height:2em;
+}
+li.fields
+{
+	margin:0;
+	padding: 2em,0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	font-style:none;
+	text-align:center;
+	line-height:2em;
+}
+
+/*To hide stuff*/
+.hide
+{
+	display:none;
+}
+
+/*To show stuff*/
+.show
+{
+	display:block;
+}
